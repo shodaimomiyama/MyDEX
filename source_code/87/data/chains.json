@@ -1,0 +1,4 @@
+[
+    {"chainId": 11155111, "name": "Sepolia", "symbol": "ETH", "explorer": "https://sepolia.etherscan.io", "logo": "sepolia.svg"},
+    {"chainId": 137, "name": "Polygon", "symbol": "MATIC", "explorer": "https://polygonscan.com", "logo": "polygon.svg"}
+]
