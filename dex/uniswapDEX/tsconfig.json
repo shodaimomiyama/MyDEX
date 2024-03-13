@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    }
+}
+//es2020:BigIntを使いたいから
+//下二つ:Jsonファイルをtypscriptから直接読み込めるようにするため
