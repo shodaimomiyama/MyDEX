@@ -1,0 +1,17 @@
+[
+    {
+        "chainId": 31337,
+        "factory": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "router": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+    },
+    {
+        "chainId": 11155111,
+        "factory": "0xdC8BA6490dE8aE11c31f571bBc3e1984227e7758",
+        "router": "0x935729d5E6b60f178f7bE6610FA5B4B9339ef84c"
+    },
+    {
+        "chainId": 137,
+        "factory": "0x5714d5A730CD795bF2fCB63c8f94999aB51DD225",
+        "router": "0x752C8aA83988fcD5d3147299a243c81674189FcA"
+    }
+]

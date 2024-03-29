@@ -1,0 +1,703 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/UdexFactory.sol": {
+      "lastModificationDate": 1708264634025,
+      "contentHash": "9b3817d48c62e5dea88ae42a8840a6cf",
+      "sourceName": "contracts/UdexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UdexPool.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexFactory"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/UdexPool.sol": {
+      "lastModificationDate": 1710913978720,
+      "contentHash": "b6f43c0b8b3f518ea41f0fda8aa3755a",
+      "sourceName": "contracts/UdexPool.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Math.sol",
+        "./interfaces/IERC20.sol",
+        "./UdexERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexPool"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1708189894082,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1708266196523,
+      "contentHash": "b453b1b86e46e62b1fcc33be21000ab1",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/test/TokenTest.sol": {
+      "lastModificationDate": 1708266493082,
+      "contentHash": "0e1b62ff1c102eb3b803f7260bbbf5fa",
+      "sourceName": "contracts/test/TokenTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TokenTest"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1708271738973,
+      "contentHash": "ca0eb96d81a3ccc249dd3811859f08fd",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/test/MathTest.sol": {
+      "lastModificationDate": 1708271933122,
+      "contentHash": "b1e810939918a38cb3296d945c7ae1c9",
+      "sourceName": "contracts/test/MathTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MathTest"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/UdexContractsV2/contracts/UdexERC20.sol": {
+      "lastModificationDate": 1708322309442,
+      "contentHash": "9440fdc27a6d1279f90b43d2189f8a2d",
+      "sourceName": "contracts/UdexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexERC20"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/UdexERC20.sol": {
+      "lastModificationDate": 1711096769720,
+      "contentHash": "9440fdc27a6d1279f90b43d2189f8a2d",
+      "sourceName": "contracts/UdexERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexERC20"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1711096769721,
+      "contentHash": "b453b1b86e46e62b1fcc33be21000ab1",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/UdexPool.sol": {
+      "lastModificationDate": 1711096769718,
+      "contentHash": "b6f43c0b8b3f518ea41f0fda8aa3755a",
+      "sourceName": "contracts/UdexPool.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/Math.sol",
+        "./interfaces/IERC20.sol",
+        "./UdexERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexPool"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1711096769720,
+      "contentHash": "ca0eb96d81a3ccc249dd3811859f08fd",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/UdexRouter.sol": {
+      "lastModificationDate": 1711096769718,
+      "contentHash": "8266ffb4724b6b7aba54d08f778449f9",
+      "sourceName": "contracts/UdexRouter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/UdexLibrary.sol",
+        "./interfaces/IERC20.sol",
+        "./UdexPool.sol",
+        "./UdexFactory.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexRouter"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/libraries/UdexLibrary.sol": {
+      "lastModificationDate": 1711096769720,
+      "contentHash": "b3e689a32a80d9bbb4a25f5e0af3a594",
+      "sourceName": "contracts/libraries/UdexLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexLibrary"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/UdexFactory.sol": {
+      "lastModificationDate": 1711096769721,
+      "contentHash": "9b3817d48c62e5dea88ae42a8840a6cf",
+      "sourceName": "contracts/UdexFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UdexPool.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexFactory"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1711096888648,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/test/TokenTest.sol": {
+      "lastModificationDate": 1711096769719,
+      "contentHash": "0e1b62ff1c102eb3b803f7260bbbf5fa",
+      "sourceName": "contracts/test/TokenTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TokenTest"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/test/UdexLibraryTest.sol": {
+      "lastModificationDate": 1711096769719,
+      "contentHash": "97da9fb0d3dcca343c28a167be8fe209",
+      "sourceName": "contracts/test/UdexLibraryTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/UdexLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "UdexLibraryTest"
+      ]
+    },
+    "/Users/momiyamashodai/src/dex/udex/hardhat/contracts/test/MathTest.sol": {
+      "lastModificationDate": 1711096769719,
+      "contentHash": "b1e810939918a38cb3296d945c7ae1c9",
+      "sourceName": "contracts/test/MathTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "MathTest"
+      ]
+    }
+  }
+}
